@@ -1,0 +1,16 @@
+title: IT Tools
+description: A set of IT tools deployed with Jekyll
+baseurl: "" # Kosongkan jika ini halaman utama di GitHub Pages
+url: "https://rafliiar17.github.io/it-tools-jekyll" # Ganti dengan URL Anda
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude files from build
+exclude:
+  - node_modules
+  - .git
+  - .github
+  - Dockerfile
